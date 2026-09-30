@@ -90,7 +90,7 @@ Valid ratio range: −0.2 to +0.4. Units: mg/m³.
 
 ---
 
-## Bathymetry — Methods Compared
+## Bathymetry - Methods Compared
 
 Reference depth data: **EMODnet DTM** (~115m resolution), reprojected to match Sentinel-2 grid (EPSG:32634, 10m).
 
