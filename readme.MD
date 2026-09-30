@@ -8,8 +8,8 @@ The project compares traditional spectral ratio methods against machine learning
 
 ## Study Area
 
-**South coast of Crete, Greece** — Sentinel-2 tile T34SGE  
-Coordinate system: EPSG:32634 | Resolution: 10m | Period: 2024–2025
+**South coast of Crete, Greece** - Sentinel-2 tile T34SGE  
+Coordinate system: EPSG:32634, Resolution: 10m, Period: 2024–2025
 
 ![True Color RGB — March 2024](docs/images/crete_rgb_march.png)
 *True color RGB composite — Sentinel-2, March 2024. Snow visible on the White Mountains (Lefka Ori). Clear Mediterranean water ideal for optical bathymetry.*
@@ -97,7 +97,7 @@ Reference depth data: **EMODnet DTM** (~115m resolution), reprojected to match S
 Shallow water training pixels: **94,448,695** (across 54 scenes, 0–30m depth)  
 Train/test split: **80/20**, stratified by scene
 
-### Baseline — Stumpf Band Ratio (2003)
+### Baseline - Stumpf Band Ratio (2003)
 
 $$ratio = \frac{\ln(Blue)}{\ln(Green)}$$
 
